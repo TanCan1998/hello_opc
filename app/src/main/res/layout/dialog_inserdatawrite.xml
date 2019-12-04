@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dialogBackground"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/inserted_node"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <com.example.hello.ui.widget.ClearEditText
+        android:id="@+id/edtNamespaceWrite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:drawableEnd="@drawable/ic_clear"
+        android:hint="@string/namespace"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:visibility="visible"
+        tools:layout_editor_absoluteY="41dp" />
+
+    <com.example.hello.ui.widget.ClearEditText
+        android:id="@+id/edtNodeIDWrite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:drawableEnd="@drawable/ic_clear"
+        android:ems="10"
+        android:hint="@string/node_index"
+        android:inputType="text"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <com.example.hello.ui.widget.ClearEditText
+        android:id="@+id/edtValueWrite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/value"
+        android:drawableEnd="@drawable/ic_clear"
+        android:inputType="text"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="159dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/value_type"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinnertype"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnOkWrite"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_dialog"
+        android:text="@android:string/ok"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="381dp" />
+
+</LinearLayout>
+

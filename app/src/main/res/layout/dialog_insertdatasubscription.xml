@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dialogBackground"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/insert_parameters"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/publishing_Interval"
+        android:textAlignment="center" />
+
+    <com.example.hello.ui.widget.ClearEditText
+        android:id="@+id/edtRequestedPublishingInterval"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_clear"
+        android:ems="10"
+        android:hint="@string/requested_publish_interval"
+        android:inputType="numberDecimal"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/max_keep_alive_count"
+        android:textAlignment="center" />
+
+    <com.example.hello.ui.widget.ClearEditText
+        android:id="@+id/edtRequestedMaxKeepAliveCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_clear"
+        android:ems="10"
+        android:hint="@string/requested_max_keep_alive_count"
+        android:inputType="number"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lifetime_count"
+        android:textAlignment="center" />
+
+    <com.example.hello.ui.widget.ClearEditText
+        android:id="@+id/edtRequestedLifetimeCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_clear"
+        android:ems="10"
+        android:hint="@string/requested_lifetime_count"
+        android:inputType="number"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/max_notification_per_publish"
+        android:textAlignment="center" />
+
+    <com.example.hello.ui.widget.ClearEditText
+        android:id="@+id/edtMaxNotificationPerPublish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_clear"
+        android:ems="10"
+        android:hint="@string/max_notification_per_publish"
+        android:inputType="number"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/priority"
+        android:textAlignment="center" />
+
+    <com.example.hello.ui.widget.ClearEditText
+        android:id="@+id/edtPriotity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_clear"
+        android:ems="10"
+        android:hint="@string/priority"
+        android:inputType="number"
+        android:textAlignment="center" />
+
+    <CheckBox
+        android:id="@+id/checkPublishingEnable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:enabled="false"
+        android:text="@string/publishing_enable"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btnOkSubscription"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_dialog"
+        android:text="@string/create_subscription" />
+
+</LinearLayout>

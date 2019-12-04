@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary_yellow">#FEB133</color>
+    <color name="colorPrimaryDark_yellow">#FEB133</color>
+    <color name="colorAccent_yellow">#EEDCCE</color>
+    <color name="background_yellow">#FFFFFF</color>
+    <color name="activityBackground_yellow">#FAFAFA</color>
+    <color name="infoBoxBackground_yellow">#FADB93</color>
+    <color name="nodeBackground_yellow">#0C000000</color>
+</resources>

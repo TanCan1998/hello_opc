@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary_purple">#A93CD4</color>
+    <color name="colorPrimaryDark_purple">#A93CD4</color>
+    <color name="colorAccent_purple">#DA98F3</color>
+    <color name="background_purple">#FFFFFF</color>
+    <color name="activityBackground_purple">#FAFAFA</color>
+    <color name="infoBoxBackground_purple">#DFB5EE</color>
+    <color name="nodeBackground_purple">#0C000000</color>
+</resources>

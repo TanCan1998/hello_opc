@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary_green">#4FA76C</color>
+    <color name="colorPrimaryDark_green">#4FA76C</color>
+    <color name="colorAccent_green">#DAEECE</color>
+    <color name="background_green">#FFFFFF</color>
+    <color name="activityBackground_green">#FAFAFA</color>
+    <color name="infoBoxBackground_green">#85D19D</color>
+    <color name="nodeBackground_green">#0C000000</color>
+</resources>

@@ -1,0 +1,48 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme_yellow" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#8C8C77</item>
+        <item name="colorPrimaryDark">#8C8C77</item>
+        <item name="colorAccent">#69B4FA</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar_yellow">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay_yellow" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay_yellow" parent="ThemeOverlay.AppCompat.Light">
+        <item name="overlapAnchor">false</item>  <!--设置不覆盖锚点-->
+    </style>
+
+    <style name="TranslucentTheme_yellow" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#8C8C77</item>
+        <item name="colorPrimaryDark">#8C8C77</item>
+        <item name="colorAccent">#5C8FFF</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <style name="InfoBox_yellow">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:background">@drawable/button_bg</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:elevation">5dp</item>
+        <item name="android:textIsSelectable">true</item>
+    </style>
+
+    <style name="AppAlert_yellow" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorPrimary">@color/colorPrimary_yellow</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark_yellow</item>
+        <item name="colorAccent">@color/colorAccent_yellow</item>
+    </style>
+
+</resources>

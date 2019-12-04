@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary_pink">#FC6B8A</color>
+    <color name="colorPrimaryDark_pink">#FC6B8A</color>
+    <color name="colorAccent_pink">#EECED9</color>
+    <color name="background_pink">#FFFFFF</color>
+    <color name="activityBackground_pink">#FAFAFA</color>
+    <color name="infoBoxBackground_pink">#EECED9</color>
+    <color name="nodeBackground_pink">#0C000000</color>
+</resources>

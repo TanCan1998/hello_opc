@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary_night">#000000</color>
+    <color name="colorPrimaryDark_night">#000000</color>
+    <color name="colorAccent_night">#424040</color>
+    <color name="background_night">#FFFFFF</color>
+    <color name="activityBackground_night">#424040</color>
+    <color name="infoBoxBackground_night">#75726D</color>
+    <color name="nodeBackground_night">#23FAFAFA</color>
+    <color name="dialogBackground_night">#75726D</color>
+</resources>

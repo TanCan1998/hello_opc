@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/faboptions_subscription"
+        android:icon="@drawable/ic_fab_subscription"
+        android:title="@string/subscription" />
+
+    <item
+        android:id="@+id/faboptions_add"
+        android:icon="@drawable/ic_fab_add"
+        android:title="@string/add" />
+
+    <item
+        android:id="@+id/faboptions_read"
+        android:icon="@drawable/ic_fab_read"
+        android:title="@string/read" />
+
+    <item
+        android:id="@+id/faboptions_write"
+        android:icon="@drawable/ic_fab_write"
+        android:title="@string/write" />
+</menu>

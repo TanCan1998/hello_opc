@@ -1,0 +1,35 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/locale">
+
+        <EditTextPreference
+            app:key="locale"
+            app:title=""
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/theme_title">
+
+        <SwitchPreferenceCompat
+            app:disableDependentsState="true"
+            app:key="theme_night"
+            app:title="@string/night_mode"
+            app:icon="@drawable/ic_sun"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            android:defaultValue="default"
+            android:key="theme_color"
+            android:title="@string/skin_color"
+            app:dependency="theme_night"
+            app:dialogIcon="@drawable/ic_theme"
+            app:icon="@drawable/ic_theme"
+            app:useSimpleSummaryProvider="true"
+            app:entries="@array/theme_entries"
+            app:entryValues="@array/theme_values" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

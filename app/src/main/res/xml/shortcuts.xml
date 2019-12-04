@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_optionmenu_settings"
+        android:shortcutDisabledMessage="@string/shortcutDisabledMessage"
+        android:shortcutId="settings"
+        android:shortcutLongLabel="@string/shortcutLongLabel"
+        android:shortcutShortLabel="@string/shortcutShortLabel"
+        tools:targetApi="n_mr1">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.hello.debug"
+            android:targetClass="com.example.hello.ui.activity.ConnectingActivity" />
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.hello.debug"
+            android:targetClass="com.example.hello.ui.activity.SettingsActivity" />
+        <categories android:name="android.shortcut.conversation"/>
+    </shortcut>
+</shortcuts>

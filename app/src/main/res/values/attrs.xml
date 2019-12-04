@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="HistoryEditText">
+
+        <attr name="clear_text" format="reference|string" />
+
+    </declare-styleable>
+</resources>

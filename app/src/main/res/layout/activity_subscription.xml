@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activityBackground"
+    tools:context=".ui.activity.SubscriptionActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimaryDark"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            tools:ignore="UnusedAttribute" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appbar"
+        android:text="@string/subscription_information"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtSubscriptionInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView12"
+        android:textAlignment="center"
+        android:padding="5dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:text="TextView" />
+
+    <TextView
+        android:id="@+id/txtParameterSubscription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtSubscriptionInfo"
+        android:layout_margin="5dp"
+        android:textSize="16sp"
+        tools:text="TextView" />
+
+    <Button
+        android:id="@+id/btnCreateMonitoredItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtParameterSubscription"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_selector"
+        android:padding="8dp"
+        android:text="@string/create_monitored_item"
+        android:textColor="#FFFFFF" />
+
+    <ListView
+        android:id="@+id/listMonitoredItem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/btnCreateMonitoredItem"
+        android:divider="@null"
+        android:layoutAnimation="@anim/file_list_anim_layout" />
+</RelativeLayout>

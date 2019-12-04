@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/top_nav_selector"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical"
+    android:padding="4dp">
+
+    <TextView
+        android:id="@+id/txtMonID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        tools:text="TextView" />
+
+    <TextView
+        android:id="@+id/txtsubmonval"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart"
+        tools:text="TextView" />
+
+    <TextView
+        android:id="@+id/txtsubsource"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart"
+        tools:text="TextView" />
+
+    <TextView
+        android:id="@+id/txtsubserv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart"
+        tools:text="TextView" />
+
+    <TextView
+        android:id="@+id/txtsubstato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart"
+        tools:text="TextView" />
+
+    <Button
+        android:id="@+id/btn_add_alarm"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_dialog"
+        android:text="@string/add_alarm"
+        android:visibility="gone" />
+</LinearLayout>

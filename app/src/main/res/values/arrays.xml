@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Theme Preference -->
+    <string-array name="theme_entries">
+        <item>Default</item>
+        <item>Pink</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Purple</item>
+    </string-array>
+
+    <string-array name="theme_values">
+        <item>default</item>
+        <item>pink</item>
+        <item>yellow</item>
+        <item>green</item>
+        <item>purple</item>
+    </string-array>
+    <!--                  -->
+
+    <string-array name="WriteType">
+        <item>Integer</item>
+        <item>Float</item>
+        <item>Double</item>
+        <item>String</item>
+        <item>Boolean</item>
+    </string-array>
+
+    <string-array name="timestamps">
+        <item>Both</item>
+        <item>Server</item>
+        <item>Source</item>
+        <item>Neither</item>
+    </string-array>
+</resources>

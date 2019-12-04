@@ -1,0 +1,165 @@
+<resources>
+    <!-- MyApplication-->
+    <string name="requestTimeout">请求超时</string>
+    <string name="connectingAttempt">尝试连接</string>
+    <string name="UncaughtException">很抱歉,程序出现异常,即将退出。</string>
+
+    <!-- SplashActivity-->
+    <string name="skip">跳过</string>
+
+    <!-- ConnectingActivity-->
+    <string name="find_nodes">探索节点</string>
+    <string name="exampleUrl" translatable="false">Ex   118.24.36.220:62547</string>
+    <string name="insertAddress">请输入URL</string>
+    <string name="endpointsList">端点列表</string>
+    <string name="clearText">清除历史</string>
+    <string name="invalidAddress">无效地址</string>
+    <string name="requestEndpoints">向服务器请求端点</string>
+    <string name="endpointsNotFound">找不到端点</string>
+    <string name="exit">再按一次退出</string>
+    <string name="connectConfirm">您要连接到该端点吗？</string>
+    <string name="sessionCreation">会话创建</string>
+    <string name="sessionNotCreate">无法建立会话\n</string>
+    <string name="notSupported">不支持</string>
+    <string name="protocolNotSupport">此应用程序当前可以使用的唯一传输协议是tcp协议。\n选择一个opc.tcp端点</string>
+
+    <!-- MainActivity-->
+    <string name="app_name">OPC UA 客户端</string>
+    <string name="nav_header_title" translatable="false">@string/app_name</string>
+    <string name="nav_header_subtitle">打造更好的OPC UA 客户端</string>
+    <string name="action_settings">设置</string>
+    <string name="action_exit">退出</string>
+    <string name="confirm_exit">确认退出</string>
+    <string name="msg_exit">是否退出程序？</string>
+    <string name="error">错误</string>
+    <string name="session_information">会话信息</string>
+    <string name="no_other_nodes">没有其他节点</string>
+    <string name="browse">向服务器请求浏览</string>
+    <string name="browse_failed">浏览时出错\n</string>
+    <string name="session_close">关闭会话</string>
+    <string name="session_close_notice">取消会话后，所有连接的订阅将被删除。您要结束本次会话吗？</string>
+    <string name="insert_valid">输入有效值</string>
+    <string name="failed_reading">未执行读取\n</string>
+    <string name="menu_actions">操作</string>
+    <string name="reading_in_progress">正在读取…</string>
+    <string name="result">结果</string>
+    <string name="write_in_progress">正在进行写入操作…</string>
+    <string name="write_failed">写入失败\n</string>
+    <string name="sent_values">值已发送</string>
+    <string name="create_subscription_mon">没有订阅，立即创建一个</string>
+    <string name="creation_subscription">订阅创建</string>
+    <string name="disconnect">关闭会话</string>
+    <string name="created_successfully">创建成功</string>
+    <string name="subscription_cleared">订阅和监控项被清除</string>
+    <string name="locale_changed">语言环境更换，需手动重启应用</string>
+    <string name="add_alarm">添加报警器</string>
+
+    <!-- DialogSubscription-->
+    <string name="insert_parameters">输入订阅参数</string>
+    <string name="publishing_Interval">推送间隔</string>
+    <string name="requested_publish_interval">请求的推送间隔</string>
+    <string name="max_keep_alive_count">最大保持活跃数</string>
+    <string name="requested_max_keep_alive_count">请求的最大保持活跃数</string>
+    <string name="lifetime_count" translatable="false">Lifetime Count</string>
+    <string name="requested_lifetime_count" translatable="false">Requested Lifetime Count</string>
+    <string name="max_notification_per_publish" translatable="false">Max Notification per Publish</string>
+    <string name="priority" translatable="false">Priority</string>
+    <string name="publishing_enable">启用推送</string>
+    <string name="create_subscription">创建订阅</string>
+    <string name="failed_to_create_subscription">无法创建订阅\n</string>
+    <string name="invalid_constraint">您必须如下遵守约束:</string>
+
+    <!-- DialogRead-->
+    <string name="inserted_node">输入节点数据</string>
+    <string name="namespace">命名空间</string>
+    <string name="node_index">节点索引</string>
+    <string name="max_age" translatable="false">MaxAge</string>
+    <string name="timestamp" translatable="false">Timestamp</string>
+    <string name="server" translatable="false">Server</string>
+    <string name="source" translatable="false">Source</string>
+    <string name="both" translatable="false">Both</string>
+    <string name="neither" translatable="false">Neither</string>
+
+    <!-- DialogWrite-->
+    <string name="value">值</string>
+    <string name="value_type">值类型:&#160;</string>
+
+    <!-- DialogAlarm-->
+    <string name="current_value" translatable="false">The Current Value：</string>
+    <string name="max_value" translatable="false">Max</string>
+    <string name="min_value" translatable="false">Min</string>
+    <string name="inserted_critical_value" translatable="false">Enter threshold</string>
+    <string name="max_less_than_min" translatable="false">The maximum value must be greater than the minimum value!</string>
+
+    <!-- ListSubscriptionActivity-->
+    <string name="list_sub_act_title">订阅列表</string>
+    <string name="select_subscription">选择要使用的订阅</string>
+
+    <!-- SubscriptionActivity-->
+    <string name="subscription_information">订阅信息</string>
+    <string name="create_monitored_item">创建监控项</string>
+    <string name="returned_parameters">服务器返回的参数</string>
+    <string name="subscription_read_error">订阅读取错误</string>
+    <string name="delete_subscription">删除订阅</string>
+    <string name="close_subscription">关闭订阅</string>
+    <string name="closing_subscription">您要关闭此订阅吗？</string>
+    <string name="cancel_subscription">正在取消订阅</string>
+    <string name="elimination_subscription_failed">订阅无法删除\n</string>
+    <string name="error_toast">错误:&#160;</string>
+    <string name="creating_monitored_item">正在创建监控项</string>
+    <string name="unknown_error">未知错误\n</string>
+
+    <!-- MonitoredItemActivity-->
+    <string name="moni_act_title">监控</string>
+    <string name="moni_item_act_title">监控项</string>
+    <string name="breaking" translatable="false">"Last "</string>
+    <string name="readings" translatable="false">&#160;readings</string>
+    <string name="active_update">用户界面更新开启</string>
+    <string name="update_in_pause">用户界面更新关闭</string>
+    <string name="start_update">启用用户界面更新</string>
+    <string name="pause_update">停止用户界面更新</string>
+    <string name="monitored_item">受监控项</string>
+    <string name="session_id">会话ID</string>
+    <string name="error_reading_session">会话读取错误</string>
+    <string name="monitoring_of_the_session">监控</string>
+    <string name="insert_moni_item_data">输入监控项参数</string>
+    <string name="sampling_interval">采样间隔</string>
+    <string name="queue_size">队列大小</string>
+    <string name="discard_oldest">舍弃最旧的</string>
+    <string name="filter">过滤</string>
+    <string name="absolute_filter">绝对过滤器</string>
+    <string name="percentage_filter">百分比过滤器</string>
+    <string name="deadband">死区值</string>
+    <string name="timestamp_type" translatable="false">Timestamp Type</string>
+
+    <!-- Menu-->
+    <string name="menu_status">会话</string>
+    <string name="menu_browse">浏览</string>
+    <string name="menu_monitoring">监控</string>
+    <string name="menu_list_subscription">订阅列表</string>
+    <string name="menu_share">分享</string>
+    <string name="menu_send">发送</string>
+    <string name="communicate">社交</string>
+
+    <!-- Settings Activity Title -->
+    <string name="title_activity_settings">设置</string>
+
+    <!-- Preference Titles -->
+    <string name="locale">系统语言</string>
+
+    <!-- Theme Preferences -->
+    <string name="theme_title">主题</string>
+    <string name="night_mode">夜间模式</string>
+    <string name="skin_color">颜色</string>
+
+    <!-- Shortcut -->
+    <string name="shortcutDisabledMessage">设置</string>
+    <string name="shortcutLongLabel">设置</string>
+    <string name="shortcutShortLabel">设置</string>
+
+    <!-- FabMenu-->
+    <string name="subscription">订阅</string>
+    <string name="add">添加订阅</string>
+    <string name="read">读取</string>
+    <string name="write">写入</string>
+</resources>
