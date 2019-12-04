@@ -244,7 +244,7 @@ public class BrowseContainerFragment extends Fragment {
             final Dialog dialog = new Dialog(Objects.requireNonNull(getContext()), R.style.AppAlert);
             dialog.setContentView(R.layout.dialog_list_subscription);
             listSubscriptions = dialog.findViewById(R.id.listSubscriptions);
-            adapter = new SubscriptionAdapter(getContext(), R.layout.item_subscriptions, sessionElement.getSubscriptions());
+            adapter = new SubscriptionAdapter(getContext(), R.layout.item_readings, sessionElement.getSubscriptions(), R.layout.item_readings_dialog);
             listSubscriptions.setAdapter(adapter);
             listSubscriptions.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                 @Override

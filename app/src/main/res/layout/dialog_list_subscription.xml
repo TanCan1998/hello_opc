@@ -21,6 +21,5 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/textView5"
-        android:divider="@null"
-        android:layoutAnimation="@anim/file_list_anim_layout" />
+        android:divider="@null" />
 </RelativeLayout>

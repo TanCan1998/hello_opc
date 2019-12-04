@@ -46,7 +46,7 @@ public class ListSubscriptionActivity extends BaseActivity {
         }
 
         listSubscriptions = findViewById(R.id.listSubscriptions);
-        adapter = new SubscriptionAdapter(ListSubscriptionActivity.this, R.layout.item_subscriptions, manager.getSessions().get(session_position).getSubscriptions());
+        adapter = new SubscriptionAdapter(ListSubscriptionActivity.this, R.layout.item_subscriptions, manager.getSessions().get(session_position).getSubscriptions(), R.layout.item_readings);
         listSubscriptions.setAdapter(adapter);
         listSubscriptions.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
